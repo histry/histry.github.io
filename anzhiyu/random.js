@@ -1,4 +1,4 @@
-var posts=["2025/10/01/1.AlexNet/","2025/10/10/10.对比学习论文综述/","2025/10/12/12.Deepmind用机器学习指导数学直觉/","2025/10/11/11.AlphaFold 2/","2025/10/13/13.Swin Transformer/","2025/10/15/15.双流网络/","2025/10/14/14.CLIP/","2025/10/16/16.GPT，GPT-2，GPT-3/","2025/10/17/17.OpenAI Codex/","2025/10/18/18.DeepMind AlphaCode/","2025/10/19/19.斯坦福 2022 年 AI 指数报告精读/","2025/10/02/2.ResNet/","2025/10/20/20.I3D/","2025/10/21/21.视频理解论文串讲/","2025/10/03/3.Transformer/","2025/10/04/4.GNNGCN/","2025/10/05/5.GAN/","2025/10/06/6.BERT/","2025/10/07/7.ViT/","2025/10/08/8.MAE/","2025/10/09/9.MoCo/"];function toRandomPost(){
+var posts=["2025/10/21/letnet/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
